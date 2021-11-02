@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+
+body{
+    margin: 0;
+    width: 100%;
+    background-image: url(https://lumiere-a.akamaihd.net/v1/images/12_insideout_214515c5.jpeg?download=true);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+header#titulo {
+    margin: 10px;
+    font-weight: bold;
+    text-shadow: 10px 5px 10px rgba(236, 35, 236, 0.973); 
+    text-align: center;
+    font-size: 65px;
+    font-family: 'Irish Grover', cursive;
+    color: rgb(255, 255, 255);
+}
+    
+
+section#mood{
+
+    text-align: center;
+    padding: 1rem;
+
+}
+
+section#mood div#txt{
+
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Henny Penny', cursive;
+    font-size: 1.3rem;
+    font-weight: 300;
+    text-shadow: 10px 5px 10px rgba(236, 35, 236, 0.973);
+    color: white;
+}
+
+
+section#mood button#alterar{
+
+background-color: rgb(174, 7, 252);
+  border: radius;
+  color: #000;
+  text-align: center;
+  font-family: 'Henny Penny', cursive;
+  font-size: 18px;
+  cursor: pointer;
+  width: 50%;
+  height: 40px;
+  border-radius: 5px;
+  margin: 1.5rem 0 0 0;
+}
+
+
+
+
+
+section#mood div#txt p#descricao{
+    
+   margin-top: 5px;
+
+}
+
+section#mood img#imagem{
+
+    margin-top: 20px;
+    width: 25%;
+
+}
